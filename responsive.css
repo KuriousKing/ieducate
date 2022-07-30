@@ -1,0 +1,108 @@
+.navbar {
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    height: 400px;
+}
+
+.list {
+    width: 100%;
+    flex-direction: column;
+    height: 70%;
+    transition: all 0.1s ease-out;
+}
+
+.rightNav {
+    margin: 20px auto;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    transition: all 0.1s ease-out;
+}
+
+.hResp {
+    height: 75px;
+}
+
+.vResp {
+    opacity: 0;
+}
+
+.burger {
+    display: block;
+}
+
+.main {
+    flex-direction: column-reverse;
+    height: 70vh;
+    max-width: 100%;
+}
+
+.fhlf {
+    text-align: center;
+    width: 100%;
+}
+
+.fhlf .big {
+    font-size: 2rem;
+}
+
+.shlf {
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.shlf img {
+    width: 50%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.section {
+    flex-direction: column-reverse;
+}
+
+.paras {
+    padding: 10px;
+    width: 90%;
+}
+
+.sTag {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.thumbnail img {
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+}
+
+.form {
+    width: 90%;
+}
+
+.form label {
+    font-size: 16px;
+}
+
+.form input {
+    width: 100%;
+    font-size: 14px;
+}
+
+.form textarea {
+    width: 100%;
+    font-size: 14px;
+}
